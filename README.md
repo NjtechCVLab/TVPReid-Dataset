@@ -1,15 +1,10 @@
 # TVPReid-Dataset
-TVPReid Dataset for our arvix paper [TVPR:Text-to-Video Person Retrieval and a New
-Benchmark](https://arxiv.org/pdf/2307.07184.pdf) [1].
+TVPReid Dataset for our arvix paper [TVPR:Text-to-Video Person Retrieval and a New Benchmark](https://arxiv.org/pdf/2307.07184.pdf) [1].
 
-![Dataset]([highword.png](https://github.com/NjtechCVLab/TVPReid-Dataset/blob/main/highwords.png))
+![Dataset](https://github.com/NjtechCVLab/TVPReid-Dataset/blob/main/highwords.png).
 
 ## Introduction
-To fill the limitation in the dataset, we build a large-scale benchmark for text-to-video person retrieval, termed as Textto-Video Person Re-identification (TVPReid) dataset. Our
-dataset comprises 6559 person videos collected from three existing person re-identification datasets: PRID-2011 [2], iLIDS-VID [3], and DukeMTMC-VideoReID [4]. For PRID-2011, there are 1134 person videos with 2268 descriptions. iLIDS-VID consists of 600 person videos with
-1200 descriptions. DukeMTMC-VideoReID has 4825 videos with 9650 descriptions. Since the data in these datasets are all video tracklets, we use OpenCV to synthesize the video tracklets of the same pedestrian under the same camera perspective at the same time into a video. After removing similar samples, we obtain 6559 unique person videos. To accurately describe
-these videos, each video is annotated with two different sentence descriptions, totaling 13118 sentences that provide rich details about the person’s appearance, actions, and interactions with environment. The sentence descriptions are generally long and use a diverse vocabulary, with 404,580 words and 1982 unique words in our dataset. The average sentence
-length in TVPReid dataset is 30 words, with the longest sentence containing 83 words. The figure illustrates some example thumbnails of person video and high-frequency words in the proposed TVPRrid dataset.
+To fill the limitation in the dataset, we build a large-scale benchmark for text-to-video person retrieval, termed as Textto-Video Person Re-identification (TVPReid) dataset. Our dataset comprises 6559 person videos collected from three existing person re-identification datasets: PRID-2011 [2], iLIDS-VID [3], and DukeMTMC-VideoReID [4]. For PRID-2011, there are 1134 person videos with 2268 descriptions. iLIDS-VID consists of 600 person videos with 1200 descriptions. DukeMTMC-VideoReID has 4825 videos with 9650 descriptions. Since the data in these datasets are all video tracklets, we use OpenCV to synthesize the video tracklets of the same pedestrian under the same camera perspective at the same time into a video. After removing similar samples, we obtain 6559 unique person videos. To accurately describe these videos, each video is annotated with two different sentence descriptions, totaling 13118 sentences that provide rich details about the person’s appearance, actions, and interactions with environment. The sentence descriptions are generally long and use a diverse vocabulary, with 404,580 words and 1982 unique words in our dataset. The average sentence length in TVPReid dataset is 30 words, with the longest sentence containing 83 words. The figure illustrates some example thumbnails of person video and high-frequency words in the proposed TVPRrid dataset.
 
 ## Dataset Access
 
