@@ -13,6 +13,9 @@ Link:
 ### Baidu Netdisk
 Link:
 
+## Note
+Using this project will download third-party open source datasets. Please check the license terms of these open source dataset projects before use.
+
 ## Reference
 [1] Hirzer M, Beleznai C, Roth P M, et al. Person re-identification by descriptive and discriminative classification[C]//Image Analysis: 17th Scandinavian Conference, SCIA 2011, Ystad, Sweden, May 2011. Proceedings 17. Springer Berlin Heidelberg, 2011: 91-102.
 
