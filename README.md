@@ -13,7 +13,8 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
 Link: https://drive.google.com/drive/folders/1lmLik5zEPckDGrwakWcAM9XpQQ7Q8NmW?usp=drive_link
 
 ### Baidu Netdisk
-Link: https://pan.baidu.com/s/1SiaCgnEWlY98RNnhoCg0rg?pwd=5vmx 提取码: 5vmx
+Link: https://pan.baidu.com/s/1SiaCgnEWlY98RNnhoCg0rg?pwd=5vmx 
+Password: 5vmx
 
 ## Note
 Using this project will download third-party open source datasets. Please check the license terms of these open source dataset projects before use.
