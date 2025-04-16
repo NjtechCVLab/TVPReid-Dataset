@@ -25,6 +25,7 @@ Password: 9jpd
 
 ### Folder structure of the dataset
 
+```shell
 TVPReid_dataset
 ├── TVPReid-Duke
 │   └── captions
@@ -36,7 +37,7 @@ TVPReid_dataset
     └── ${collection}train.caption.txt
     └── ${collection}val.caption.txt
     └── ${collection}test.caption.txt
-
+```
 
 ## Note
 Using this project will download third-party open source datasets. Please check the license terms of these open source dataset projects before use.
