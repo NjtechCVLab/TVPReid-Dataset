@@ -24,7 +24,7 @@ Link: https://pan.baidu.com/s/1cKOqq_RJb1zcT3DsJIqy1A?pwd=9jpd
 Password: 9jpd
 
 ### Folder structure of the dataset
-As shown in the structure below, 'TVPReid_dataset' contains three sub-datasets. Taking 'TVPReid-Duke/' as an example, the sub-dataset folder contains 'captions/' and 'videos/'. 'captions/' contains the complete text description of the sub-dataset: 'TVPReid-Duke.json', and the partition files: 'train.csv', 'test.csv', 'val.csv', which store the video ID. The folder structure of 'TVPReid-iLIDs/' and 'TVPReid-PRID/' is consistent with that of 'TVPReid-Duke/'.
+As shown in the structure below, `TVPReid_dataset` contains three sub-datasets. Taking `TVPReid-Duke/` as an example, the sub-dataset folder contains `captions/` and `videos/`. `captions/` contains the complete text description of the sub-dataset: `TVPReid-Duke.json`, and the partition files: `train.csv`, `test.csv`, `val.csv`, which store the video ID. The folder structure of `TVPReid-iLIDs/` and `TVPReid-PRID/` is consistent with that of `TVPReid-Duke/`.
 ```shell
 TVPReid_dataset
 ├── TVPReid-Duke
