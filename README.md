@@ -6,7 +6,7 @@ TVPReid Dataset for our ACMMM2024 accepted paper [TVPR: Text-to-Video Person Ret
 ## Introduction
 To make up for the lack of experimental data for Text-to-Video Person Retrieval (TVPR) tasks, we construct a large-scale dataset and name it the Text-to-Video Person Re-identification (TVPReid) dataset. Our dataset consists of 6559 pedestrian videos from three existing person re-identification datasets: PRID-2011 [[1]](#Reference), iLIDS-VID [[2]](#Reference), and DukeMTMC-VideoReID [[3]](#Reference). These source data contain image data of different pedestrians from surveillance videos. We first aggregate them into the video form required by the task. For image data from the same pedestrian in the same time period and the same viewpoint, we use OpenCV to integrate them into a video. After integrating the three complete person re-identification datasets and performing data cleaning, we obtain a total of 6559 unique pedestrian videos. We then annotate each pedestrian video with two different sentence descriptions, for a total of 13118 sentences. The sentence descriptions are in a natural language style and contain rich details about the pedestrian's appearance, actions, and environmental elements that the pedestrian interacts with. The average sentence length of the TVPReid dataset is 30 words, and the longest sentence contains 83 words. The TVPReid dataset is divided into training set, validation set and test set with a ratio of 0.8125:0.0625:0.125, which is based on the division method of the MSRVTT [[4]](#Reference) dataset. The details of each sub-dataset are shown in the following table, among which TVPReid-PRID has 2268 sentence descriptions, TVPReid-iLIDs has 1200 sentence descriptions, and the largest sub-dataset TVPReid-Duke has 9650 sentence descriptions.
 ### Details for three sub-datasets in TVPReid dataset
-|    |  TVPReid-PRID  |  TVPReid-iLIDs  |  TVPReid@Duke |
+|    |  TVPReid-PRID  |  TVPReid-iLIDs  |  TVPReid-Duke |
 |:-------:|:-------:|:-------:|:-------:|
 | Train | 921 | 488 | 3920 |
 | Validate | 71 | 37 | 302 |
@@ -17,11 +17,26 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
 ## Dataset Access
 
 ### Google Drive
-Link: https://drive.google.com/drive/folders/1lmLik5zEPckDGrwakWcAM9XpQQ7Q8NmW?usp=drive_link
+Link: https://drive.google.com/drive/folders/1lmLik5zEPckDGrwakWcAM9XpQQ7Q8NmW?usp=sharing
 
 ### Baidu Netdisk
-Link: https://pan.baidu.com/s/1SiaCgnEWlY98RNnhoCg0rg?pwd=5vmx 
-Password: 5vmx
+Link: https://pan.baidu.com/s/1cKOqq_RJb1zcT3DsJIqy1A?pwd=9jpd
+Password: 9jpd
+
+### Folder structure of the dataset
+
+TVPReid_dataset
+├── TVPReid-Duke
+│   └── captions
+│       ├── train.csv
+│       ├── test.csv
+│       ├── val.csv
+│       └── TVPReid-Duke.json
+└── TextData
+    └── ${collection}train.caption.txt
+    └── ${collection}val.caption.txt
+    └── ${collection}test.caption.txt
+
 
 ## Note
 Using this project will download third-party open source datasets. Please check the license terms of these open source dataset projects before use.
