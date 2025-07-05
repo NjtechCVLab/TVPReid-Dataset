@@ -15,7 +15,7 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
 
 
 ## Dataset Access
-The currently published dataset is an optimized version of the dataset in the paper[1]. It is significantly different from the results in the original paper[1]. The latest experimental results on this dataset will be published in the current project soon.
+==The currently published dataset is an optimized version of the dataset in the paper[1]. It is significantly different from the results in the original paper[1]. The latest experimental results on this dataset will be published in the current project soon.==
 
 ### Google Drive
 Link: https://drive.google.com/drive/folders/1lmLik5zEPckDGrwakWcAM9XpQQ7Q8NmW?usp=sharing
