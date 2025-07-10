@@ -31,15 +31,21 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
   </tr>
   <tr>
     <td>frozen</td>
-    <td>38</td><td>73.95</td><td>85.55</td><td>3</td>
-    <td>19.35</td><td>49.35</td><td>65.35</td><td>6</td>
-    <td>30.5</td><td>61.45</td><td>71.7</td><td>3</td>
+    <td>38.0</td><td>74.0</td><td>85.6</td><td>3.0</td>
+    <td>19.4</td><td>49.4</td><td>65.4</td><td>6.0</td>
+    <td>30.5</td><td>61.5</td><td>71.7</td><td>3.0</td>
   </tr>
   <tr>
     <td>X-pool</td>
-    <td>45.07</td><td>82.4</td><td>90.5</td><td>2</td>
-    <td>24</td><td>63.34</td><td>76</td><td>3</td>
-    <td>34.08</td><td>65.42</td><td>76.12</td><td>3</td>
+    <td>45.1</td><td>82.4</td><td>90.5</td><td>2.0</td>
+    <td>24</td><td>63.3</td><td>76.0</td><td>3.0</td>
+    <td>34.1</td><td>65.4</td><td>76.1</td><td>3.0</td>
+  </tr>
+  <tr>
+    <td>ours</td>
+    <td>48.4</td><td>81.5</td><td>90.1</td><td>1.7</td>
+    <td>31.1</td><td>67.6</td><td>79.8</td><td>2.5</td>
+    <td>37.1</td><td>66.2</td><td>74.6</td><td>3.0</td>
   </tr>
 </table>
 ## Dataset Access
