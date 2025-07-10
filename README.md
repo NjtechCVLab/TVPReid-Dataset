@@ -16,8 +16,8 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
 | Total | 1134 | 600 | 4825 |
 
 
-🚨 ***The TVPReid dataset released by this project is [an updated version](https://github.com/NjtechCVLab/TVPReid-Dataset) based on the dataset introduced in the paper.  The following table shows the results of experiments on the new version of the TVPReid dataset :(Due to the lack of audio data, the original paper conducted experiments by removing the audio branch in MMT. However, the new experimental results have low reference value, so this project omits the comparative experiment of this model.)***
-
+🚨 ***The TVPReid dataset released by this project is [an updated version](https://github.com/NjtechCVLab/TVPReid-Dataset) based on the dataset introduced in the paper.  The following table shows the results of experiments on the new version of the TVPReid dataset :(Due to the lack of audio data, the original paper conducted experiments by removing the audio branch in MMT. However, the new experimental results have limited reference value, so the results from this experiment are not included in the table below.)***
+### Comparative experimental results on the new version of TVPReid dataset
 <table>
   <tr>
     <th rowspan="2">Method</th>
@@ -49,6 +49,8 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
     <td>37.1</td><td>66.2</td><td>74.6</td><td>94.2</td><td>3.0</td>
   </tr>
 </table>
+
+🚨 ***For Frozen-in-time and X-pool, we conducted experiments using the publicly available source code provided in their respective papers, while preserving their original hyperparameter settings. For our own method, we also performed multiple experiments on the new version of the dataset, and the final results reported are the averages of these multiple runs.***
 
 ## Dataset Access
 
