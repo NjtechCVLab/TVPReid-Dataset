@@ -15,7 +15,8 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
 | Test | 142 | 75 | 603 |
 | Total | 1134 | 600 | 4825 |
 
-🚨 ***The TVPReid dataset released by this project is <font color="blue">an updated version</font> based on the dataset introduced in the paper.  The following table shows the results of experiments on the new version of the TVPReid dataset :(Due to the lack of audio data, the original paper conducted experiments by removing the audio branch in MMT. However, the new experimental results have low reference value, so this project omits the comparative experiment of this model.)***
+
+🚨 ***The TVPReid dataset released by this project is [an updated version](https://github.com/NjtechCVLab/TVPReid-Dataset) based on the dataset introduced in the paper.  The following table shows the results of experiments on the new version of the TVPReid dataset :(Due to the lack of audio data, the original paper conducted experiments by removing the audio branch in MMT. However, the new experimental results have low reference value, so this project omits the comparative experiment of this model.)***
 
 <table>
   <tr>
