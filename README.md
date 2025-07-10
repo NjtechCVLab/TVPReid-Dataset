@@ -20,9 +20,9 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
 <table>
   <tr>
     <th rowspan="2">Method</th>
-    <th colspan="4">TVPReid-PRID</th>
-    <th colspan="4">TVPReid-iLIDs</th>
-    <th colspan="4">TVPReid-Duke</th>
+    <th colspan="5">TVPReid-PRID</th>
+    <th colspan="5">TVPReid-iLIDs</th>
+    <th colspan="5">TVPReid-Duke</th>
   </tr>
   <tr>
     <th>R@1</th><th>R@5</th><th>R@10</th><td>R@50</td><th>MdR</th>
