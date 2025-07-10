@@ -30,7 +30,7 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
     <th>R@1</th><th>R@5</th><th>R@10</th><td>R@50</td><th>MdR</th>
   </tr>
   <tr>
-    <td>frozen</td>
+    <td>Frozen-in-time</td>
     <td>38.0</td><td>74.0</td><td>85.6</td><td>98.6</td><td>3.0</td>
     <td>19.4</td><td>49.4</td><td>65.4</td><td>99.4</td><td>6.0</td>
     <td>30.5</td><td>61.5</td><td>71.7</td><td>91.7</td><td>3.0</td>
