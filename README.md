@@ -16,10 +16,11 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
 | Total | 1134 | 600 | 4825 |
 
 🚨 ***The TVPReid dataset released by this project is an updated version based on the dataset introduced in the paper, and is mainly optimized for dataset partitioning. The old version of the data partitioning has details such as text length and uneven distribution of pedestrian feature types. For example, most of the video data containing a certain action feature exists in the validation set and the test set, while there is very little or even no video data of this type in the training set. This is an uncontrollable phenomenon that occurs when the dataset is randomly partitioned, and it also leads to difficulties in model optimization. For this reason, this project has optimized the TVPReid dataset and released the latest version. The following table shows the results of experiments on the new version of the TVPReid dataset:***
+
 | Method   | TVPReid-PRID                  | TVPReid-iLIDs                  | TVPReid-Duke                  |
-|----------|----------------|----------------|----------------|-----|----------------|----------------|----------------|-----|----------------|----------------|----------------|-----|
+|:----------:|:----------------:|:----------------:|:----------------:|:-----:|:----------------:|:----------------:|:----------------:|:-----:|:----------------:|:----------------:|:----------------:|-----:|
 |          | R@1  | R@5   | R@10  | MdR | R@1   | R@5   | R@10  | MdR | R@1  | R@5   | R@10  | MdR |
-|----------|------|-------|-------|-----|-------|-------|-------|-----|------|-------|-------|-----|
+|:----------:|:------:|:-------:|:-------:|:-----:|:-------:|:-------:|:-------:|:-----:|:------:|:-------:|:-------:|:-----:|
 | frozen   | 38   | 73.95 | 85.55 | 3   | 19.35 | 49.35 | 65.35 | 6   | 30.5 | 61.45 | 71.7  | 3   |
 | X-pool   | 45.07| 82.4  | 90.5  | 2   | 24    | 63.34 | 76    | 3   | 34.08| 65.42 | 76.12 | 3   |
 | [Method3]|      |       |       |     |       |       |       |     |      |       |       |     |
