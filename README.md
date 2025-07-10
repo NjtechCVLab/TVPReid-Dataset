@@ -17,13 +17,31 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
 
 🚨 ***The TVPReid dataset released by this project is an updated version based on the dataset introduced in the paper, and is mainly optimized for dataset partitioning. The old version of the data partitioning has details such as text length and uneven distribution of pedestrian feature types. For example, most of the video data containing a certain action feature exists in the validation set and the test set, while there is very little or even no video data of this type in the training set. This is an uncontrollable phenomenon that occurs when the dataset is randomly partitioned, and it also leads to difficulties in model optimization. For this reason, this project has optimized the TVPReid dataset and released the latest version. The following table shows the results of experiments on the new version of the TVPReid dataset:***
 
-| Method   |         TVPReid-PRID         |         TVPReid-iLIDs         |         TVPReid-Duke         |
-|----------|-----------|-----------|-----------|-----|-----------|-----------|-----------|-----|-----------|-----------|-----------|-----|
-|          | R@1       | R@5       | R@10      | MdR | R@1       | R@5       | R@10      | MdR | R@1       | R@5       | R@10      | MdR |
-|----------|-----------|-----------|-----------|-----|-----------|-----------|-----------|-----|-----------|-----------|-----------|-----|
-| frozen   | 38        | 73.95     | 85.55     | 3   | 19.35     | 49.35     | 65.35     | 6   | 30.5      | 61.45     | 71.7      | 3   |
-| X-pool   | 45.07     | 82.4      | 90.5      | 2   | 24        | 63.34     | 76        | 3   | 34.08     | 65.42     | 76.12     | 3   |
-
+<table>
+  <tr>
+    <th rowspan="2">Method</th>
+    <th colspan="4">TVPReid-PRID</th>
+    <th colspan="4">TVPReid-iLIDs</th>
+    <th colspan="4">TVPReid-Duke</th>
+  </tr>
+  <tr>
+    <th>R@1</th><th>R@5</th><th>R@10</th><th>MdR</th>
+    <th>R@1</th><th>R@5</th><th>R@10</th><th>MdR</th>
+    <th>R@1</th><th>R@5</th><th>R@10</th><th>MdR</th>
+  </tr>
+  <tr>
+    <td>frozen</td>
+    <td>38</td><td>73.95</td><td>85.55</td><td>3</td>
+    <td>19.35</td><td>49.35</td><td>65.35</td><td>6</td>
+    <td>30.5</td><td>61.45</td><td>71.7</td><td>3</td>
+  </tr>
+  <tr>
+    <td>X-pool</td>
+    <td>45.07</td><td>82.4</td><td>90.5</td><td>2</td>
+    <td>24</td><td>63.34</td><td>76</td><td>3</td>
+    <td>34.08</td><td>65.42</td><td>76.12</td><td>3</td>
+  </tr>
+</table>
 ## Dataset Access
 
 ### Google Drive
