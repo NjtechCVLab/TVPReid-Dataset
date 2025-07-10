@@ -15,7 +15,7 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
 | Test | 142 | 75 | 603 |
 | Total | 1134 | 600 | 4825 |
 
-🚨 ***The TVPReid dataset released by this project is an updated version based on the dataset introduced in the paper, and is mainly optimized for dataset partitioning. The old version of the data partitioning has details such as text length and uneven distribution of pedestrian feature types. For example, most of the video data containing a certain action feature exists in the validation set and the test set, while there is very little or even no video data of this type in the training set. This is an uncontrollable phenomenon that occurs when the dataset is randomly partitioned, and it also leads to difficulties in model optimization. For this reason, this project has optimized the TVPReid dataset and released the latest version. The following table shows the results of experiments on the new version of the TVPReid dataset :(Due to the lack of audio data, the original paper conducted experiments by removing the audio branch in MMT. However, the new experimental results have low reference value, so this project omits the comparative experiment of this model.)***
+🚨 ***The TVPReid dataset released by this project is an updated version based on the dataset introduced in the paper.  The following table shows the results of experiments on the new version of the TVPReid dataset :(Due to the lack of audio data, the original paper conducted experiments by removing the audio branch in MMT. However, the new experimental results have low reference value, so this project omits the comparative experiment of this model.)***
 
 <table>
   <tr>
@@ -25,27 +25,27 @@ To make up for the lack of experimental data for Text-to-Video Person Retrieval 
     <th colspan="4">TVPReid-Duke</th>
   </tr>
   <tr>
-    <th>R@1</th><th>R@5</th><th>R@10</th><th>MdR</th>
-    <th>R@1</th><th>R@5</th><th>R@10</th><th>MdR</th>
-    <th>R@1</th><th>R@5</th><th>R@10</th><th>MdR</th>
+    <th>R@1</th><th>R@5</th><th>R@10</th><td>R@50</td><th>MdR</th>
+    <th>R@1</th><th>R@5</th><th>R@10</th><td>R@50</td><th>MdR</th>
+    <th>R@1</th><th>R@5</th><th>R@10</th><td>R@50</td><th>MdR</th>
   </tr>
   <tr>
     <td>frozen</td>
-    <td>38.0</td><td>74.0</td><td>85.6</td><td>3.0</td>
-    <td>19.4</td><td>49.4</td><td>65.4</td><td>6.0</td>
-    <td>30.5</td><td>61.5</td><td>71.7</td><td>3.0</td>
+    <td>38.0</td><td>74.0</td><td>85.6</td><td>98.6</td><td>3.0</td>
+    <td>19.4</td><td>49.4</td><td>65.4</td><td>99.4</td><td>6.0</td>
+    <td>30.5</td><td>61.5</td><td>71.7</td><td>91.7</td><td>3.0</td>
   </tr>
   <tr>
     <td>X-pool</td>
-    <td>45.1</td><td>82.4</td><td>90.5</td><td>2.0</td>
-    <td>24</td><td>63.3</td><td>76.0</td><td>3.0</td>
-    <td>34.1</td><td>65.4</td><td>76.1</td><td>3.0</td>
+    <td>45.1</td><td>82.4</td><td>90.5</td><td>-</td><td>2.0</td>
+    <td>24</td><td>63.3</td><td>76.0</td><td>-</td><td>3.0</td>
+    <td>34.1</td><td>65.4</td><td>76.1</td><td>-</td><td>3.0</td>
   </tr>
   <tr>
     <td>ours</td>
-    <td>48.4</td><td>81.5</td><td>90.1</td><td>1.7</td>
-    <td>31.1</td><td>67.6</td><td>79.8</td><td>2.5</td>
-    <td>37.1</td><td>66.2</td><td>74.6</td><td>3.0</td>
+    <td>48.4</td><td>81.5</td><td>90.1</td><td>100.0</td><td>1.7</td>
+    <td>31.1</td><td>67.6</td><td>79.8</td><td>100.0</td><td>2.5</td>
+    <td>37.1</td><td>66.2</td><td>74.6</td><td>94.2</td><td>3.0</td>
   </tr>
 </table>
 
